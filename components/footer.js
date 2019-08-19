@@ -6,8 +6,7 @@ function Footer() {
       <Profile className="profile-footer" />
 
       <p>
-        Proudly built with <a href="https://nextjs.org">Next.js</a> -{" "}
-        <a href="/feed.json">RSS Feed</a>
+        &copy; 2019
       </p>
       <style jsx>{`
         footer {
