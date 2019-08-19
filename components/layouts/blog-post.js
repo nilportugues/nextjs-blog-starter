@@ -1,7 +1,6 @@
 import Link from "next/link";
 import { siteMeta } from "../../blog.config";
 import Layout from "./default";
-import SyntaxHighlight from "../syntax-highlight";
 import PublishedAt from "../utils/published-at";
 import blogposts from "../../posts/index";
 import NextPrevPost from "../next-prev-post";
@@ -15,7 +14,7 @@ function BlogPost({ path, meta, children }) {
 
   return (
     <Layout pageTitle={meta.title} ogImage={meta.image}>
-      <SyntaxHighlight />
+      
       <article className="h-entry">
         <header>
           <h1 className="p-name">{meta.title}</h1>
