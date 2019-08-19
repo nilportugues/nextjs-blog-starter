@@ -1,10 +1,8 @@
-import Profile from "./profile";
+
 
 function Footer() {
   return (
     <footer>
-      <Profile className="profile-footer" />
-
       <p>
         &copy; 2019
       </p>
