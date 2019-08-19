@@ -20,13 +20,6 @@ const Head = props => (
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="icon" href="/static/favicon.ico" />
 
-    <link
-      rel="alternate"
-      title="RSS Feed"
-      type="application/json"
-      href={`${siteMeta.siteUrl}/feed.json`}
-    />
-
     <meta property="og:url" content={props.url || defaultOGURL} />
     <meta property="og:title" content={props.title || ""} />
     <meta
